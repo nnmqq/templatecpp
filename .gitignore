@@ -29,3 +29,6 @@
 *.exe.dlls/
 *.exe.manifest
 *.pc
+
+compile_commands.json
+.cache/

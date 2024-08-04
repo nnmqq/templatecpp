@@ -1,0 +1,15 @@
+{
+    "clangd.arguments": [
+    "--compile-commands-dir=../",
+    "--background-index",
+    "--clang-tidy",
+    "--completion-style=detailed",
+    "--header-insertion=iwyu",
+    "--suggest-missing-includes",
+    "--header-insertion-decorators",
+    "--log=verbose",
+    "--background-index",
+    "--clang-tidy",
+    "--completion-style=detailed",
+    ]
+}
