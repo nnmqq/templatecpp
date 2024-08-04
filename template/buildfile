@@ -1,0 +1,7 @@
+libs =
+#import libs += libhello%lib{hello}
+
+exe{myproject}: {hxx ixx txx cxx}{**} $libs
+
+#cxx.poptions += "-I$out_root/include" "-I$src_root/include"
+cxx.poptions += "-I$src_base/include"

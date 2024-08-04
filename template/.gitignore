@@ -1,0 +1,5 @@
+template
+
+# Testscript output directory (can be symlink).
+#
+test-template
